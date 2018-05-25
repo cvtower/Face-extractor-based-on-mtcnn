@@ -100,7 +100,7 @@ def main(args):
     output_filename =args.output
 
     draw = cv2.imread(filename)
-    #img=cv2.cvtColor(draw,cv2.COLOR_BGR2RGB)
+    draw = cv2.cvtColor(draw,cv2.COLOR_BGR2RGB)
     #cv2.imshow('img',img)
     #cv2.waitKey(0)
 
