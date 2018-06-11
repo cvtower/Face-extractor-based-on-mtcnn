@@ -43,6 +43,8 @@ import detect_face
 import cv2
 import math
 from skimage import transform as trans
+
+###not for insight repo.2018/5/1
 def faceAlign_v0(input_image, points, output_size = (96, 96), ec_mc_y = 40):
     '''
     return the size-fixed align image with the given facial landmarks 
@@ -76,6 +78,7 @@ def faceAlign_v0(input_image, points, output_size = (96, 96), ec_mc_y = 40):
             continue
 
     return allAlignFaces
+###works for insight repo.2018/5/1
 def faceAlign_v1(img, src, points):
     image_size = (112, 112)
     tform = trans.SimilarityTransform()
