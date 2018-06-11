@@ -9,6 +9,8 @@ In fact i am so familiar with mtcnn since it was ever published, and have altern
 
 However, yesterday(2018/5/10)when help workmate to solve a face extracting related issue i found that no simple and clear samples available on github contains the "warp and crop" operation, which is needed for recognition and liveness detection and so on research. So 2 types of crop implement is provided here, guess it will be simple to understand since it is commited by this new python user(used to play with cuda/opencl/c++) here.
 
+alignmentv2 works prefectly for the insightface repo, and pretty nice performance gained here.
+
 Feel free to use, hope it will be helpful.
 
 # Contact 
